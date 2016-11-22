@@ -72,8 +72,8 @@
 
   <dependencyManagement>
     <!-- Important: Do not add any additional dependency versions here!
-         The dependency management should only import drools-bom and kie-third-party-bom to get the proper versions
-         it needs. Any additional 3rd party dependency versions need to go directly into kie-third-party-bom. -->
+         The dependency management should only import drools-bom to get the proper versions
+         for Drools artifacts. Any additional 3rd party dependency versions need to go directly into kie-parent. -->
     <dependencies>
       <dependency>
         <groupId>org.drools</groupId>
