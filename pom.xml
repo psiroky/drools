@@ -96,6 +96,9 @@
             <forkCount>${surefire.forkCount}</forkCount>
             <reuseForks>true</reuseForks>
             <runOrder>hourly</runOrder>
+            <systemPropertyVariables>
+              <java.net.preferIPv4Stack>true</java.net.preferIPv4Stack>
+            </systemPropertyVariables>
           </configuration>
         </plugin>
       </plugins>
