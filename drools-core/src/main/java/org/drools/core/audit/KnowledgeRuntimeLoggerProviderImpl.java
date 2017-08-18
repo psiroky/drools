@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.drools.core.audit;
+package org.drools.core.audit; blabla
 
 import org.drools.core.impl.AbstractRuntime;
 import org.kie.api.event.KieRuntimeEventManager;
